@@ -30,6 +30,7 @@ namespace Adventure
         {
             Console.WriteLine("Press [1] to see game rules.");
             Console.WriteLine("Press [2] to view character info sheet.");
+            Console.WriteLine("Press [3] to enter the dark forest!");
 
             string userInput = Console.ReadLine();
 
@@ -40,6 +41,9 @@ namespace Adventure
                     break;
                 case "2":
                     character.DisplayCharacter();
+                    break;
+                case "3":
+                    forest.ForestMenu();
                     break;
             }
             MainMenu();
