@@ -10,6 +10,8 @@ namespace Adventure
     {
         static void Main(string[] args)
         {
+            Game adventureGame = new Game();
+            adventureGame.MainMenu();
         }
     }
 }

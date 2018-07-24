@@ -42,8 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Desert.cs" />
+    <Compile Include="Forest.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="Character.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rules.cs" />
+    <Compile Include="Sea.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
